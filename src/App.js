@@ -8,7 +8,6 @@ import Auth from './staff/pages/Auth';
 import Students from './students/pages/Students';
 import NewStudent from './students/pages/NewStudent';
 import NewTeacher from './teachers/pages/NewTeacher';
-///hsdasd asd
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
