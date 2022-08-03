@@ -28,6 +28,10 @@ const NewStudent = () => {
         gender:{
             value: '',
             isValid: false
+        },
+        email:{
+            value: '',
+            isValid: false
         }
 
     }, false);
@@ -39,7 +43,7 @@ const NewStudent = () => {
 
     return(
         <form className="student-form" onSubmit={studentSubmitHandler}>
-            <h2>Please provide the student details below</h2>
+            <h2>Please enter the required details</h2>
             <Input
                 id = "name"
                 label="Student Name"

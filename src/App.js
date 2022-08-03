@@ -33,8 +33,7 @@ function App() {
   else{
     routes = (
       <Routes>
-                <Route path="/" element={<Navigate to="/auth" />}></Route>
-
+        <Route path="/" element={<Navigate to="/auth" />}></Route>
         <Route path="/auth" element={<Auth />}></Route>
       </Routes>
     );
